@@ -1,0 +1,137 @@
+
+header {
+	width:100%; 
+	height: 120px;/* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background: linear-gradient(#252932,#fff);
+	margin-bottom:10px;
+	font-size: 10px;
+	padding: 0%;
+	
+}
+
+
+.wrapper {
+	width:98%; 
+	max-width:1000px; 
+	margin:auto; 
+	overflow:hidden; 
+	font-size: 10px;
+}
+
+header .logo{
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:120px;
+	float:left;
+	
+}
+
+header nav {
+	float:right;
+	line-height:120px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 10px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+body {
+	text-align: center;
+}
+
+img{
+	border-radius: 15px;
+	margin:0 4px;
+}
+
+h3{
+	font-size: 14px;
+font-family: Arial, sans-serif;
+}
+
+h4{
+	font-family: Arial, sans-serif;	
+	font-size: 30px;
+
+}
+
+h5{
+	font-size: 18px;
+	font-family:  Arial, sans-serif;
+}
+
+.container{
+
+	padding: 10px 10px 10px;
+}
+
+footer{
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	background: linear-gradient(0deg, #252932, rgb(255, 255, 255));
+	position: relative;
+	/* Altura total del footer en px con valor negativo */
+	margin-top: -50px;
+	/* Altura del footer en px. Se han restado los 5px del margen
+	   superior mas los 5px del margen inferior
+	*/
+	height: 40px;
+	padding:5px 0px;
+	clear: both;
+		
+	text-align: center;
+	
+}
+
+.form{
+	background-color: #252932;
+	padding: 5px 5px 5px 5px;
+	width: 40%;
+	margin: auto;
+	width: 50%;
+	border-radius: 30px;
+color: #f2f2f2;
+background-color: #f56f3a;
+font-family:  Arial, sans-serif;
+   }
+  
+  .form input{
+	width: 90%;
+	height: 30px;
+	border-radius: 20px;
+	margin: .5rem
+  }
+  
+  .form textarea{
+	width: 90%;
+	height: 30px;
+	border-radius: 20px;
+	margin: .5rem
+
+  }
+  .form button{
+	padding: .5em 1em;
+	border:none;
+	background: rgb(255, 255, 255);
+	cursor: pointer;
+	border-radius: 20px;
+  }
